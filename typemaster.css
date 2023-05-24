@@ -1,0 +1,450 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #F2F2F2;
+    overflow-x: hidden;
+}
+.veryfirst{
+    padding: 23px 24px 0 24px  ;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin-top: 8px;
+}
+.preorderbutton{
+    background: #E8EFF2;
+    border-radius: 8px;
+    padding: 11px 14.5px 11px 13.5px;
+}
+.preordernow{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #162542;
+}
+.firstmain{
+    display: flex;
+    flex-direction: column;
+    padding: 68px 0 24px 24px;
+}
+.both{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 48px;
+   text-transform: uppercase;
+   color: #162542;
+   padding-right: 24px;
+   margin-bottom: 32px;
+}
+.improve{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   color: #7B8BAD;
+}
+.buttonandrealise{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+    margin-top: 32px;
+}
+.orangebutton{
+    background: #F16718;
+    border-radius: 8px;
+    padding: 11px 14px 11px 14px;
+    width: 150px;
+}
+.preordernowsecond{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.realise{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+    margin-top: 10px;
+}
+.tabletkeyboard, .desktopkeyboard{
+    display: none;
+}
+.mobilekeyboard{
+    display: flex;
+    justify-content:right;
+    border-radius: 30px 0 0 30px;
+    padding-left: 24px;
+}
+.middlemain{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px 0 0;
+}
+.firstpattern{
+    display: none;
+}
+.pattern{
+    display: none;
+}
+.background{
+    background-color: #F16718;
+    border-radius: 0 30px 30px 0;
+    width: 129px;
+    height: 193px;
+    margin-left: -15px;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    gap:23px
+}
+.tabletphandkey, .desktopphandkey, .tabletglandkey, .desktopglandkey{
+    display: none;
+}
+.mobilephandkey{
+    border-radius: 0 30px 30px 0;
+    width: 129px;
+    height: 193px;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+}
+.picandletters{
+    display: flex;
+    gap:19px
+}
+.mobileglandkey{
+    width: 220px;
+    height: 193px;
+    border-radius: 30px;
+}
+.letters{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-top: 75px;
+}
+.michanical{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #162542;
+}
+.typemaster{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+    padding: 0 0 0 24px;
+}
+.container{
+    padding: 111px 24px 50px 24px;
+}
+.compatible, .wireless, .battery{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.icon-compatible{
+    background-color: #F16718;
+    width: 65px;
+    height: 65px;
+    border-radius: 16px;
+    margin: auto;
+    display: flex;
+}
+.compatibleicon{
+    width: 25.14px;
+    height: 20px;
+    margin: auto;
+}
+.compatibletitle{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    
+}
+.compatiblep{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+}
+.wirelessicon{
+    margin:auto;
+    height: 25px;
+    width: 20px;
+}
+.wireless, .battery, .rgb{
+    margin-top: 64px;
+}
+.batteryicon, .rgbicon{
+    margin: auto;
+}
+.last{
+    padding: 46px 52px 50px 51px;
+    display: flex;
+}
+.allrights{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+@media(min-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .both{
+        display: flex;
+        flex-direction: row;
+        padding: 62px 0 39px 39px;
+    }
+    .title{
+        width: ;
+    }
+    .improve{
+        width: 70%;
+    }
+    .mobilekeyboard, .desktopkeyboard{
+        display: none;
+    }
+    .tabletbackground{
+        background-color: #D8D8D8;
+        border-radius: 20px;
+    }
+    .tabletkeyboard{
+        display: block;
+        Width:478px;
+        Height:425px;
+        background: #D8D8D8;
+        border-radius: 20px;
+        opacity: 0.9;
+        mix-blend-mode:darken;
+    }
+    .firstmain{
+        padding-left: 0;
+    }
+    .mobilephandkey, .desktopphandkey, .mobileglandkey, .desktopglandkey{
+        display: none;
+    }
+    .tabletphandkey{
+        display: block;
+        height: 320px;
+        border-radius: 20px;
+        mix-blend-mode: multiply;
+        opacity: 0.75;
+    }
+    .pattern{
+        display: none;
+    }
+    .background{
+        border-radius: 20px;
+        height: 320px;
+        width: 214px;
+    }
+    .firstpattern{
+        display: none;
+    }
+    .middlemain{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .pictures{
+        margin: auto;
+    }
+    .picandletters{
+        gap:24px;
+    }
+    .tabletglandkey{
+        display: block;
+        width: 435px;
+        height: 320px;
+        border-radius: 20px;
+    }
+    .letters{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        gap:39px;
+        padding:0 40px 157px 39px ;
+    }
+    .typemaster{
+        text-align: left;
+    }
+    .picandletters{
+        display: flex;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin: auto;
+        padding-left:39px;
+        row-gap: 72px;
+        justify-content: space-between;
+    }
+    .compatibletitle, .compatiblep{
+        text-align: left;
+        width: 50%;
+    }
+    .wireless{
+        margin-top: 0;;
+    }
+    .compatible, .wireless, .battery, .rgb{
+        width: 50%;
+    }
+    .icon-compatible{
+        margin: 0;
+    }
+    .allrights{
+       margin: auto;
+    }
+}
+@media(min-width:1440px){
+    .mobilekeyboard, .tabletkeyboard, .mobilephandkey, .tabletphandkey, .mobileglandkey, .tabletglandkey{
+        display: none;
+    }
+    .veryfirst{
+        padding: 55px 165px 0 165px;
+    }
+    .both{
+        padding: 83px 0 0 165px;
+        gap:34px;
+    }
+    .firstpattern{
+        display: block;
+        height: 240px;
+        margin-right: -127px;
+        margin-top: 0px;
+    }
+    .firstmain{
+        width: 33%;
+    }
+    .title{
+        width: 30%;
+        font-size: 56px;
+        line-height:56px
+    }
+    .improve{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .desktopkeyboard{
+        display: block;
+        width: 540px;
+        height: 480px;
+        border-radius: 20px;
+        margin-left: 125px;
+    }
+    .background{
+        background-color: #F16718;
+        border-radius: 0 30px 30px 0;
+        background-size: 100%;
+    }
+    .pattern{
+        display: flex;
+        height: 236px;
+        margin-left: -280px;
+        margin-top: 250px;
+    }
+    .middlemain{
+        margin:0;
+    }
+    .pictures{
+        padding: 0;
+        gap:30px;
+        padding: 83px 165px 0 165px;
+    }
+    .picandletters{
+        display: flex;
+    }
+    .desktopglandkey{
+        height: 480px;
+        width: 445px;
+        border-radius: 20px;
+        display: block;
+        margin-left: 30px;
+    }
+    .letters{
+        margin:none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 154px;
+    }
+    .typemaster{
+        padding-left: 0;
+        margin: auto;
+    }
+    .background{
+        height: 480px;
+        width: 35%;
+        border-radius: 20px;
+    }
+    .desktopphandkey{
+        display: flex;
+        align-items: flex-start;
+        height: 480px;
+        width: 225px;
+        mix-blend-mode: multiply;
+        opacity: 0.75;
+        border-radius: 20px;
+    }
+    .preorderbutton, .orangebutton{
+        cursor: pointer;
+    }
+    .preorderbutton:hover{
+        background-color:#162542;
+        color:#FFFFFF
+    }
+    .preordernow:hover{
+        color:#FFFFFF;
+    }
+    .orangebutton:hover{
+        background-color: #FF9B62;
+    }
+    .container{
+        display: flex;
+        flex-direction:row;
+        padding: 0 165px 128px 165px;
+    }
+    .allmiddle{
+        display: flex;
+    }
+    .compatible, .wireless, .battery, .rgb{
+        width: 25%;
+    }
+    .compatibletitle, .compatiblep{
+        width: 80%;
+    }
+    .wireless{
+        margin-top: 62px;
+    }
+    .compatible{
+        margin-top: 62px;
+    }
+}
