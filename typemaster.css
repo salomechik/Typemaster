@@ -221,9 +221,7 @@ body {
         flex-direction: row;
         padding: 62px 0 39px 39px;
     }
-    .title{
-        width: ;
-    }
+
     .improve{
         width: 70%;
     }
@@ -272,9 +270,7 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .pictures{
-        margin: auto;
-    }
+
     .picandletters{
         gap:24px;
     }
@@ -338,11 +334,11 @@ body {
     .firstpattern{
         display: block;
         height: 240px;
-        margin-right: -127px;
+        margin-right: -200px;
         margin-top: 0px;
     }
     .firstmain{
-        width: 33%;
+        width: 40%;
     }
     .title{
         width: 30%;
@@ -359,7 +355,7 @@ body {
         width: 540px;
         height: 480px;
         border-radius: 20px;
-        margin-left: 125px;
+        
     }
     .background{
         background-color: #F16718;
@@ -378,7 +374,7 @@ body {
     .pictures{
         padding: 0;
         gap:30px;
-        padding: 83px 165px 0 165px;
+        padding: 83px 80px 0 165px;
     }
     .picandletters{
         display: flex;
@@ -395,6 +391,8 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 154px;
+        padding-left: 0;
+        padding-right: 150px;
     }
     .typemaster{
         padding-left: 0;
@@ -419,9 +417,8 @@ body {
     }
     .preorderbutton:hover{
         background-color:#162542;
-        color:#FFFFFF
     }
-    .preordernow:hover{
+    .preorderbutton:hover .preordernow {
         color:#FFFFFF;
     }
     .orangebutton:hover{
